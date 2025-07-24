@@ -1,23 +1,25 @@
-<!-- index.html -->
+# Spin the Wheel Web Page
+
+## index.html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spin the Wheel - Meesho Offer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spin the Wheel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/winwheel/2.8.0/Winwheel.min.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>Spin the Wheel & Win!</h1>
-    <canvas id="wheelCanvas" width="500" height="500"></canvas>
-    <button id="spinBtn">Spin Now</button>
-    <p id="result"></p>
-    <p class="footer">Follow us on Instagram: <a href="https://instagram.com/excess4fashion" target="_blank">@excess4fashion</a></p>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Winwheel.js/2.7.0/Winwheel.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Spin the Wheel!</h1>
+        <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        <button id="spinButton">Spin</button>
+        <div id="result"></div>
+        <div class="follow-message">Follow us on Instagram: @excess4fashion</div>
+        <div id="claimMessage" style="display:none;">Upload your product + review screenshot on WhatsApp to claim gift.</div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
