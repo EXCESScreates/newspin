@@ -1,47 +1,41 @@
-/* style.css */
 body {
-  font-family: Arial, sans-serif;
-  background: #fff5f7;
-  text-align: center;
-  padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
-  max-width: 600px;
-  margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #d63384;
+    color: #333;
 }
 
-#spinBtn {
-  background-color: #d63384;
-  color: white;
-  padding: 15px 30px;
-  font-size: 18px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 20px;
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-#spinBtn:hover {
-  background-color: #c2185b;
+button:hover {
+    background-color: #218838;
 }
 
-#result {
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #4caf50;
-}
-
-.footer {
-  margin-top: 40px;
-  color: #333;
-}
-.footer a {
-  color: #d63384;
-  text-decoration: none;
+.follow-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
 }
